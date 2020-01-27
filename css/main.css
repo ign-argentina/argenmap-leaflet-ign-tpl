@@ -173,7 +173,18 @@ Control graticula
 /*******************************
 Personalizado
 *******************************/
+.navbar-header > a > img {
+	width: 336px;
+	top: 0px;
+}
+
 .basemap-selector > a {
     width: 34px !important;
     height: 34px !important;
+}
+
+#top-right-logo-link > img {
+	position: absolute;
+	top: 4px !important;
+	width: 35px !important;
 }

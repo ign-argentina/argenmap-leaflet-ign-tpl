@@ -8,13 +8,29 @@ var mapa = "";
 
 //Change logotype
 $('#top-left-logo-link').attr("href","http://www.ign.gob.ar/");
-$('#top-left-logo').attr("src","templates/ign-geoportal-basic/img/logo.png");
+$('#top-left-logo').attr("src","templates/argenmap-leaflet-ign-tpl/img/logo.png");
 $('#top-left-logo').attr("alt","Logo Instituto Geográfico Nacional");
 $('#top-left-logo').attr("title","Instituto Geográfico Nacional");
-$('#top-right-logo-link').attr("href","https://www.argentina.gob.ar/defensa");
-$('#top-right-logo').attr("src","templates/ign-geoportal-basic/img/logoMinDef.png");
-$('#top-right-logo').attr("alt","Logo Ministerio de Defensa");
-$('#top-right-logo').attr("title","Ministerio de Defensa");
+//$('#top-left-logo').css("width","100px");
+//$('#top-right-logo-link').attr("href","templates/argenmap-leaflet-ign-tpl/files/referencias.pdf");
+$('#top-right-logo-link').attr("href","#");
+$('#top-right-logo').attr("src","templates/argenmap-leaflet-ign-tpl/img/referencias_icono.png");
+$('#top-right-logo').attr("alt","Referencias");
+$('#top-right-logo').attr("title","Referencias");
+//$('#top-right-logo').css("width","35px");
+//$('#top-right-logo').css("top","0px");
+
+$('#top-right-logo').on('click', function() {
+  event.preventDefault();
+  //$.fancybox.open( '<div class="message"><h2>Referencias</h2><p><img src="templates/argenmap-leaflet-ign-tpl/img/referencias.png" style="width:50%"></p></div>' );
+  //$.fancybox.getInstance();
+  //$(".fancybox").fancybox({"width":400,"height":300});
+  $.fancybox.open({
+	src : 'templates/argenmap-leaflet-ign-tpl/img/referencias.png',
+	type : 'image',
+	closeBtn: 'true'
+  });
+});
 
 // get all lybraries
 gestorMenu.addPlugin("leaflet","https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js", function() {
