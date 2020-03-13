@@ -60,6 +60,8 @@ gestorMenu.addPlugin("leaflet","https://cdnjs.cloudflare.com/ajax/libs/leaflet/1
 	gestorMenu.addPlugin("Draw","https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js")
 	// <!-- Leaflet SimpleGraticule -->
 	gestorMenu.addPlugin("graticula","templates/ign-geoportal-basic/js/leaflet-simplegraticule/L.SimpleGraticule.js");
+	// <!-- Leaflet WMTS -->
+	gestorMenu.addPlugin("WMTS","templates/ign-geoportal-basic/js/leaflet-wmts/leaflet-tilelayer-wmts.js");
 });
 
 // Add plugins to map when (and if) avaiable
@@ -524,17 +526,22 @@ function loadGeojsonTpl (url, layer) {
 
 //function loadWmsTpl (wmsUrl, layer) {
 function loadWmsTpl (objLayer) {
-    wmsUrl = objLayer.capa.host;
+	wmsUrl = objLayer.capa.host;
     layer = objLayer.nombre;
     if (overlayMaps.hasOwnProperty(layer)) {
         overlayMaps[layer].removeFrom(mapa);
         delete overlayMaps[layer];
     } else {
-        //createWmsLayer(wmsUrl, layer);
-        createWmsLayer(objLayer);
-        overlayMaps[layer].addTo(mapa);
-    }
-    
+		//createWmsLayer(wmsUrl, layer);
+		let service = objLayer.capa.servicio;
+		if (service == "wms") {
+			createWmsLayer(objLayer);
+		} else if (service == "wmts"){
+			createWmtsLayer(objLayer);
+		}
+		overlayMaps[layer].addTo(mapa);
+	}
+	
     function ucwords (str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
@@ -632,7 +639,22 @@ function loadWmsTpl (objLayer) {
             INFO_FORMAT: objLayer.capa.featureInfoFormat
         });
         overlayMaps[objLayer.nombre] = wmsSource.getLayer(objLayer.nombre);
-    }
+	}
+	
+	function createWmtsLayer(objLayer) {
+		// tilematrix, style and format should be set by a method
+		let _style = "", _tilematrixSet = "EPSG:3857", _format = "image/png";
+		var wmtsSource = new L.TileLayer.WMTS(objLayer.capa.getHostWMS(),
+			{
+				layer: objLayer.nombre,
+				style: _style,
+				tilematrixSet: _tilematrixSet,
+				format: _format,
+				attribution: objLayer.nombre
+			}
+		);
+		overlayMaps[objLayer.nombre] = wmtsSource;
+	}
 }
 
 function loadMapaBaseTpl (tmsUrl, layer, attribution) {
