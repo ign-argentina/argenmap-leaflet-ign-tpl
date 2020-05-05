@@ -646,7 +646,7 @@ function loadWmsTpl (objLayer) {
 		let _style = "", _tilematrixSet = "EPSG:3857", _format = "image/png";
 		var wmtsSource = new L.TileLayer.WMTS(objLayer.capa.getHostWMS(),
 			{
-				layer: objLayer.nombre,
+				layer: objLayer.capa.nombre,
 				style: _style,
 				tilematrixSet: _tilematrixSet,
 				format: _format,
