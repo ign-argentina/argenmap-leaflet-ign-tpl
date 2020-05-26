@@ -526,9 +526,15 @@ function loadGeojsonTpl (url, layer) {
 
 //function loadWmsTpl (wmsUrl, layer) {
 function loadWmsTpl (objLayer) {
+	
+	if (typeof templateFeatureInfoFieldException == 'undefined') {
+		alert('aaaaaaaaa');
+		templateFeatureInfoFieldException = [];
+	}
+	
 	wmsUrl = objLayer.capa.host;
     layer = objLayer.nombre;
-    if (overlayMaps.hasOwnProperty(layer)) {
+	if (overlayMaps.hasOwnProperty(layer)) {
         overlayMaps[layer].removeFrom(mapa);
         delete overlayMaps[layer];
     } else {
@@ -571,7 +577,7 @@ function loadWmsTpl (objLayer) {
     
     //Parse FeatureInfo to display into popup (if info is application/json)
     function parseFeatureInfoJSON(info, idTxt, title) {
-        info = JSON.parse(info);
+		info = JSON.parse(info);
         if (info.features.length > 0) { // check if info has any content, if so shows popup
             
             var infoAux = '<div class="featureInfo" id="featureInfoPopup' + idTxt + '">';
@@ -582,7 +588,7 @@ function loadWmsTpl (objLayer) {
             
             for (i in info.features) {
                 Object.keys(info.features[i].properties).forEach(function(k){
-                    if (k != 'bbox') { //Do not show bbox property
+                    if (k != 'bbox' && !templateFeatureInfoFieldException.includes(k)) { //Do not show bbox property
                         infoAux += '<li>';
                         infoAux += '<b>' + ucwords(k.replace(/_/g, ' ')) + ':</b>';
                         if (info.features[i].properties[k] != null) {
