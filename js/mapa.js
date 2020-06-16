@@ -8,7 +8,7 @@ var mapa = "";
 
 //Change logotype
 $('#top-left-logo-link').attr("href","http://www.ign.gob.ar/");
-$('#top-left-logo').attr("src","templates/argenmap-leaflet-ign-tpl/img/logo.png");
+//$('#top-left-logo').attr("src","templates/argenmap-leaflet-ign-tpl/img/logo.png");
 $('#top-left-logo').attr("alt","Logo Instituto Geográfico Nacional");
 $('#top-left-logo').attr("title","Instituto Geográfico Nacional");
 //$('#top-left-logo').css("width","100px");
@@ -493,6 +493,7 @@ function printFinished() {
 function showMainMenuTpl() {
     //Imprimir menú
     gestorMenu.setMenuDOM(".nav.nav-sidebar");
+	//gestorMenu.setMenuDOM(".panel-group");
     gestorMenu.setLoadingDOM(".loading");
     gestorMenu.setPrintCallback(printFinished);
     //gestorMenu.setLazyInitialization(true);
