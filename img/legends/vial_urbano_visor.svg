@@ -5,11 +5,10 @@
 	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <g id="Capa_2" display="none">
 </g>
-<g>
-	
-		<text transform="matrix(1 0 0 1 4 19.3906)" fill="#000071" stroke="#D3FBF3" stroke-width="0.5" stroke-miterlimit="10" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
-	
-		<text transform="matrix(1 0 0 1 4 19.3906)" fill="none" stroke="#D3FBF3" stroke-width="2" stroke-miterlimit="10" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
-	<text transform="matrix(1 0 0 1 4 19.3906)" fill="#000071" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
+<g id="Capa_1_1_">
+	<line fill="none" stroke="#232323" stroke-width="2" stroke-miterlimit="10" x1="4" y1="20" x2="20" y2="4"/>
+</g>
+<g id="Capa_1_2_">
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="4" y1="20" x2="20" y2="4"/>
 </g>
 </svg>

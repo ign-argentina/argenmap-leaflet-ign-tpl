@@ -4,12 +4,12 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <g id="Capa_2" display="none">
+	
+		<image display="inline" overflow="visible" enable-background="new    " width="21" height="21" xlink:href="E3210042.jpg"  transform="matrix(0.9524 0 0 0.9524 2.0005 2)">
+	</image>
 </g>
-<g>
+<g id="Capa_3">
 	
-		<text transform="matrix(1 0 0 1 4 19.3906)" fill="#000071" stroke="#D3FBF3" stroke-width="0.5" stroke-miterlimit="10" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
-	
-		<text transform="matrix(1 0 0 1 4 19.3906)" fill="none" stroke="#D3FBF3" stroke-width="2" stroke-miterlimit="10" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
-	<text transform="matrix(1 0 0 1 4 19.3906)" fill="#000071" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
+		<rect x="4.913" y="4.913" fill="#E2EBDF" stroke="#A1C2A7" stroke-width="0.5" stroke-miterlimit="10" width="14.174" height="14.174"/>
 </g>
 </svg>
