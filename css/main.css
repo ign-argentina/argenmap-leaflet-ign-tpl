@@ -185,8 +185,8 @@ Personalizado
 
 #top-right-logo-link > img {
 	position: absolute;
-	top: 4px !important;
-	width: 35px !important;
+	top: 7px !important;
+	width: 25px !important;
 }
 
 @media (max-width: 768px) {
