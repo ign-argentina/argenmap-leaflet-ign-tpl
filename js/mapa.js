@@ -389,7 +389,7 @@ $("body").on("pluginLoad", function(event, plugin){
 			mapa = L.map('mapa', {
 			    center: [-40, -59],
 			    zoom: 4,
-			    layers: [argenmap],
+			    layers: [],
 				zoomControl: false,
 				minZoom: 3,
 			    maxZoom: 21
