@@ -204,4 +204,7 @@ Personalizado
 		background-repeat: no-repeat;
 		height: 50px;
 	}
+	.list-group-item {
+		min-height: 54px;
+	}
 }
