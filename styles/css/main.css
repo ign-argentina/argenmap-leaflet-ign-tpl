@@ -1,4 +1,23 @@
 /*******************************
+new logo
+*******************************/
+body{
+	background-color: #37bbed;
+}
+.navbar{
+	background-color: #37bbed;	
+}
+.panel-default > .panel-heading{
+	background-color: #37bbed;	
+	color: white; 
+	text-shadow: #103847 1px 1px 15px
+}
+
+#sidebar-container {
+	background-color: #37bbed;	
+}
+
+/*******************************
 Personalizado
 *******************************/
 .leaflet-container {
@@ -18,8 +37,8 @@ Personalizado
 
 @media (max-width: 768px) {
 	#top-left-logo {
-		background-image: url("../images/logo-min.png");
-		background-size: 336px 49.6px;
+		background-image: url("../images/logo_RESPONSIVE.png");
+		background-size: 200px 49.6px;
 		background-repeat: no-repeat;
 		height: 50px;
 	}
@@ -27,10 +46,11 @@ Personalizado
 
 @media (min-width: 769px) {
 	#top-left-logo {
-		background-image: url("../images/logo.png");
-		background-size: 336px 49.6px;
+		background-image: url("../images/logo2.png");
+		background-size: 490px 49.6px;
 		background-repeat: no-repeat;
 		height: 50px;
+		width: 490px;
 	}
 	.list-group-item {
 		min-height: 54px;
