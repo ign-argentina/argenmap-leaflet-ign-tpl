@@ -41,6 +41,7 @@ Personalizado
 		background-size: 200px 49.6px;
 		background-repeat: no-repeat;
 		height: 50px;
+		text-shadow: #103847 1px 1px 15px
 	}
 }
 
@@ -51,6 +52,7 @@ Personalizado
 		background-repeat: no-repeat;
 		height: 50px;
 		width: 490px;
+		text-shadow: #103847 1px 1px 15px
 	}
 	.list-group-item {
 		min-height: 54px;
