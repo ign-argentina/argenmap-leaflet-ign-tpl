@@ -10,11 +10,15 @@ body{
 .panel-default > .panel-heading{
 	background-color: #37bbed;	
 	color: white; 
-	text-shadow: #103847 1px 1px 15px
+	/* text-shadow: #103847 1px 1px 15px */
 }
 
 #sidebar-container {
 	background-color: #37bbed;	
+}
+
+.item-group-short-desc a {
+	color: white
 }
 
 /*******************************
