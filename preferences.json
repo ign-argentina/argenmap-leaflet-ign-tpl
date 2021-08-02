@@ -4,12 +4,12 @@
     "rowsLimit": 5
   },
   "charts": {
-    "isActive": false
+    "isActive": true
   },
   "metaTags": {
-    "title": "",
-    "description": "",
-    "image": ""
+    "title": "IGN - Argenmap",
+    "description": "Visor de mapas desarrollado por el Instituto Geográfico Nacional",
+    "image": "/src/styles/images/argenmap.png"
   },
   "analytics_ids": ["G-D28Z64ZEDD", "UA-136146579-6"],
   "excluded_plugins": ["minimap"],
@@ -24,5 +24,5 @@
       "max": 21
     }
   },
-  "showSearchBar": false
+  "showSearchBar": true
 }
