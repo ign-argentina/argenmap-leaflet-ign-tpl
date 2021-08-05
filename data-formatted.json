@@ -248,6 +248,28 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones"
+    },
+    {
+      "type": "wmts",
+      "peso": 37,
+      "nombre": "Modelos digitales de elevaciones",
+      "short_abstract": "Modelos digitales de elevaciones",
+      "class": "",
+      "seccion": "mde",
+      "servicio": "wmts",
+      "version": "1.0.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/mosaico_mde_vant_50cm"
+    },
+    {
+      "type": "wmts",
+      "peso": 37,
+      "nombre": "Modelos digitales de elevaciones",
+      "short_abstract": "Modelos digitales de elevaciones",
+      "class": "",
+      "seccion": "mde",
+      "servicio": "wmts",
+      "version": "1.0.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/mosaico_mde_vuelos_5m"
     }
   ],
   "layers_joins": [
@@ -272,6 +294,30 @@
           "seccion": "fotogrametria",
           "host": "https://wms.ign.gob.ar/geoserver/fotogrametria",
           "layer": "area_vuelos_vant_sig"
+        }
+      ]
+    },
+    {
+      "seccion": "mde",
+      "host": "https://imagenes.ign.gob.ar/geoserver/mosaico_mde_vant_50cm",
+      "layer": "mosaico_mde_vant_50cm",
+      "joins": [
+        {
+          "seccion": "mde",
+          "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones",
+          "layer": "mde_50cm"
+        }
+      ]
+    },
+    {
+      "seccion": "mde",
+      "host": "https://imagenes.ign.gob.ar/geoserver/mosaico_mde_vuelos_5m",
+      "layer": "mosaico_mde_vuelos_5m",
+      "joins": [
+        {
+          "seccion": "mde",
+          "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones",
+          "layer": "mde_5m"
         }
       ]
     },
