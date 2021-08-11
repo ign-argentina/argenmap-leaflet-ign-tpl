@@ -10,7 +10,8 @@ body{
 .panel-default > .panel-heading{
 	background-color: #37bbed;	
 	color: white; 
-	/* text-shadow: #103847 1px 1px 15px */
+	text-shadow: 1px 1px 1px #103847
+
 }
 
 #sidebar-container {
@@ -52,7 +53,7 @@ Personalizado
 @media (min-width: 769px) {
 	#top-left-logo {
 		background-image: url("../images/logo2.png");
-		background-size: 490px 49.6px;
+		background-size: 491px 48.6px;
 		background-repeat: no-repeat;
 		height: 50px;
 		width: 490px;
