@@ -24,5 +24,36 @@
       "max": 21
     }
   },
-  "showSearchBar": true
+  "showSearchBar": true,
+  "referencias": {
+    "show": true,
+    "src": "src/config/styles/images/referencias.png",
+    "width":"",
+    "height":""
+  },
+  "theme": {
+    "bodyBackground": "#37bbed",
+    "headerBackground": "#37bbed",
+    "menuBackground": "#37bbed",
+    "activeLayer": "#33b560",
+    "textMenu":"white",
+    "textMenuStyle":"text-shadow: 1px 1px 1px #103847",
+    "textLegendMenu":"white",
+    "textLegendMenuStyle":"text-shadow: 1px 1px 1px #103847",
+    "iconBar":"#4f4f4f"
+    },
+  "logo": {
+    "title":"Instituto Geográfico Nacional",
+    "src": "src/config/default/styles/images/logo2.png",
+    "height": "",
+    "width": "",
+    "style": "filter: drop-shadow(1px 1px 1px #103847)",
+    "srcLogoMini": "src/config/default/styles/images/logo_RESPONSIVE.png",
+    "miniHeight": "",
+    "miniWidth": "",
+    "ministyle": "filter: drop-shadow(1px 1px 1px #103847);"
+  },
+  "title": "IGN - ARGENMAP",
+  "website": "https://www.ign.gob.ar/",
+  "favicon": "src/config/styles/images/favicon.ico"
 }
