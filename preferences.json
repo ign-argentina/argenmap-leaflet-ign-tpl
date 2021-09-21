@@ -31,6 +31,22 @@
     "width":"",
     "height":""
   },
+  "searchbar":{
+    "isActive": true,
+    "top": "5px",
+    "left": "40%",
+    "color_focus": "#008dc9",
+    "background_color": "rgba(255, 255, 255, 0.7)"
+  },
+  "geocoder":{
+    "url": "https://api.ign.gob.ar/buscador/",
+    "search": "search",
+    "url_by_id": "places",
+    "query": "q",
+    "lang": "es",
+    "limit":5,
+    "key": ""
+  }, 
   "theme": {
     "bodyBackground": "#37bbed",
     "headerBackground": "#37bbed",
