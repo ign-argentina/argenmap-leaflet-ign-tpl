@@ -36,7 +36,10 @@
     "top": "5px",
     "left": "40%",
     "color_focus": "#008dc9",
-    "background_color": "rgba(255, 255, 255, 0.7)"
+    "background_color": "rgba(255, 255, 255, 0.7)",
+    "strings": {
+      "placeholder": "Buscar lugar..."
+    }
   },
   "geocoder":{
     "url": "https://api.ign.gob.ar/buscador/",
@@ -69,7 +72,7 @@
     "miniWidth": "",
     "ministyle": "filter: drop-shadow(1px 1px 1px #103847);"
   },
-  "title": "IGN - ARGENMAP",
+  "title": "IGN - Argenmap",
   "website": "https://www.ign.gob.ar/",
   "favicon": "src/config/styles/images/favicon.ico"
 }
