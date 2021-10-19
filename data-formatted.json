@@ -228,6 +228,17 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/atlas_tucuman_100k"
     },
     {
+      "type": "wmts",
+      "peso": 100,
+      "nombre": "Cartografía",
+      "short_abstract": "Cartas topográficas, atlas topográficos, cartografía, etc.",
+      "class": "",
+      "seccion": "cartografia",
+      "servicio": "wmts",
+      "version": "1.0.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/atlas_jujuy_100k"
+    },
+    {
       "type": "wmslayer",
       "peso": 100,
       "nombre": "Cartografía",
