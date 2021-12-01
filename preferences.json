@@ -27,11 +27,12 @@
   "showSearchBar": true,
   "referencias": {
     "show": true,
-    "src": "src/config/styles/images/referencias.png",
-    "width":"",
-    "height":""
+    "icon": "src/config/styles/images/referencias.png",
+    "image": "src/config/styles/images/legends/referencias.png",
+    "width": "",
+    "height": ""
   },
-  "searchbar":{
+  "searchbar": {
     "isActive": true,
     "top": "5px",
     "left": "40%",
@@ -41,28 +42,28 @@
       "placeholder": "Buscar lugar..."
     }
   },
-  "geocoder":{
+  "geocoder": {
     "url": "https://api.ign.gob.ar/buscador/",
     "search": "search",
     "url_by_id": "places",
     "query": "q",
     "lang": "es",
-    "limit":5,
+    "limit": 5,
     "key": ""
-  }, 
+  },
   "theme": {
     "bodyBackground": "#37bbed",
     "headerBackground": "#37bbed",
     "menuBackground": "#37bbed",
     "activeLayer": "#33b560",
-    "textMenu":"white",
-    "textMenuStyle":"text-shadow: 1px 1px 1px #103847",
-    "textLegendMenu":"white",
-    "textLegendMenuStyle":"text-shadow: 1px 1px 1px #103847",
-    "iconBar":"#4f4f4f"
-    },
+    "textMenu": "white",
+    "textMenuStyle": "text-shadow: 1px 1px 1px #103847",
+    "textLegendMenu": "white",
+    "textLegendMenuStyle": "text-shadow: 1px 1px 1px #103847",
+    "iconBar": "#4f4f4f"
+  },
   "logo": {
-    "title":"Instituto Geográfico Nacional",
+    "title": "Instituto Geográfico Nacional",
     "src": "src/config/default/styles/images/logo2.png",
     "height": "",
     "width": "",
