@@ -39,7 +39,7 @@
     "color_focus": "#008dc9",
     "background_color": "rgba(255, 255, 255, 0.7)",
     "strings": {
-      "placeholder": "Buscar lugar..."
+      "placeholder": "Buscar localidad..."
     }
   },
   "geocoder": {
