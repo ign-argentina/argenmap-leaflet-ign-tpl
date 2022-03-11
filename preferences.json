@@ -21,7 +21,7 @@
     "zoom": {
       "initial": 4,
       "min": 3,
-      "max": 19
+      "max": 21
     }
   },
   "showSearchBar": true,
