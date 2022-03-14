@@ -175,7 +175,13 @@
       "seccion": "geodesia-demarcacion",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/geodesia-demarcacion/wms"
+      "host": "https://wms.ign.gob.ar/geoserver/geodesia-demarcacion/wms",
+      "icons": {
+        "red_densificacion_posgar": "src/config/styles/images/legends/red-densificación-posgar.svg",
+        "red_pasma": "src/config/styles/images/legends/red-pasma.svg",
+        "red_posgar": "src/config/styles/images/legends/red-posgar.svg",
+        "red_provincial": "src/config/styles/images/legends/red-provincial.svg"
+      }
     },
     {
       "type": "wms",
