@@ -78,6 +78,12 @@
   "favicon": "src/config/styles/images/favicon.ico",
   "geoprocessing": {
     "isActive": true,
+    "buttonTitle": "Curvas de nivel",
+    "buttonIcon": "fa fa-cog",
+    "dialogTitle": "Curvas de nivel",
+    "strings": {
+      "bounds": "Areas a procesar"
+    },
     "availableProcesses": [
       {
         "name": "Curvas de Nivel",
