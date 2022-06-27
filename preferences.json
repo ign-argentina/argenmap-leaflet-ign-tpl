@@ -98,6 +98,12 @@
           "d_weigth": 1,
           "smoothFactor": 1.7
         }
+      },
+      {
+        "name": "Cota",
+        "geoprocess": "waterRise",
+        "baseUrl": "https://imagenes.ign.gob.ar/geoserver/geoprocesos/ows?service=WPS&version=1.0.0",
+        "layer": "alos_unificado"
       }
     ]
   }
