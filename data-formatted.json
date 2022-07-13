@@ -13,21 +13,34 @@
           "nombre": "argenmap",
           "servicio": "tms",
           "version": "1.0.0",
-          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
+          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/Introduccion' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap.png",
           "peso": 10,
-          "selected": true
+          "selected": true,
+          "zoom": { "min": 3, "max": 19 }
         },
         {
           "titulo": "Argenmap gris",
           "nombre": "argenmap_gris",
           "servicio": "tms",
           "version": "1.0.0",
-          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
+          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/Introduccion' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap-gris.png",
-          "peso": 20
+          "peso": 20,
+          "zoom": { "min": 3, "max": 19 }
+        },
+        {
+          "titulo": "Argenmap oscuro",
+          "nombre": "argenmap_oscuro",
+          "servicio": "tms",
+          "version": "1.0.0",
+          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/Introduccion' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
+          "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/argenmap_oscuro@EPSG%3A3857@png/{z}/{x}/{-y}.png",
+          "legendImg": "src/config/styles/images/argenmap-oscuro.png",
+          "peso": 25,
+          "zoom": { "min": 3, "max": 19 }
         },
         {
           "titulo": "Imágenes satelitales Esri",
@@ -37,7 +50,8 @@
           "attribution": "Imágenes satelitales © Esri",
           "host": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
           "legendImg": "src/styles/images/esri.png",
-          "peso": 30
+          "peso": 30,
+          "zoom": { "min": 3, "max": 19 }
         },
         {
           "titulo": "Mapa topográfico Esri",
@@ -47,7 +61,8 @@
           "attribution": "Mapa topográfico © Esri",
           "host": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}",
           "legendImg": "src/styles/images/esrit.png",
-          "peso": 40
+          "peso": 40,
+          "zoom": { "min": 3, "max": 8 }
         },
         {
           "titulo": "Imágenes satelitales Here",
@@ -57,12 +72,13 @@
           "attribution": "Imágenes satelitales © here",
           "host": "https://2.aerial.maps.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8?app_id=XiMlA4JwMurUFFYUWYe3&app_code=oTsmqovbl2YudG3E0UlxDA",
           "legendImg": "src/styles/images/here.png",
-          "peso": 50
+          "peso": 50,
+          "zoom": { "min": 3, "max": 21 }
         }
       ]
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 70,
       "nombre": "Industria y servicios",
       "short_abstract": "Industrias, producción agropecuaria, minería, energía, comunicaciones, etc.",
@@ -70,10 +86,10 @@
       "seccion": "industria-servicios",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/industria-servicios"
+      "host": "https://wms.ign.gob.ar/geoserver/industria-servicios/wms"
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 25,
       "nombre": "Asentamientos humanos",
       "short_abstract": "Asentamientos humanos de la República Argentina",
@@ -81,10 +97,10 @@
       "seccion": "asentamientos-humanos",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/asentamientos_humanos"
+      "host": "https://wms.ign.gob.ar/geoserver/asentamientos_humanos/wms"
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 39,
       "nombre": "Infraestructura social",
       "short_abstract": "Asentamientos humanos, edificaciones, etc.",
@@ -92,10 +108,10 @@
       "seccion": "habitat-infraestructura-social",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/infraestructura-social"
+      "host": "https://wms.ign.gob.ar/geoserver/infraestructura-social/wms"
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 50,
       "nombre": "Transporte",
       "short_abstract": "Aeropuertos, aeródromos, red vial, red ferroviaria, etc.",
@@ -103,10 +119,10 @@
       "seccion": "transporte",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/transporte"
+      "host": "https://wms.ign.gob.ar/geoserver/transporte/wms"
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 40,
       "nombre": "Hidrografía y oceanografía",
       "short_abstract": "Ríos, lagos, humedales, embalses, islas, etc.",
@@ -114,10 +130,13 @@
       "seccion": "hidrografia-oceanografia",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/hidrografia-oceanografia"
+      "host": "https://wms.ign.gob.ar/geoserver/hidrografia-oceanografia/wms",
+      "icons": {
+        "lineas_de_zona_costera_BA040": "src/config/styles/images/legends/Accidente costero.svg"
+      }
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 90,
       "nombre": "Relieve y suelo",
       "short_abstract": "Cerros, volcanes, glaciares, etc.",
@@ -125,10 +144,10 @@
       "seccion": "relieve-suelo",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/relieve-suelo"
+      "host": "https://wms.ign.gob.ar/geoserver/relieve-suelo/wms"
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 20,
       "nombre": "Límites y unidades territoriales",
       "short_abstract": "Provincias, departamentos, municipios, áreas protegidas, etc.",
@@ -136,10 +155,15 @@
       "seccion": "limites",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/limites"
+      "host": "https://wms.ign.gob.ar/geoserver/limites/wms",
+      "icons": {
+        "hitos_internacionales": "src/config/styles/images/legends/Hitos internacionales.svg",
+        "hitos_interprovinciales": "src/config/styles/images/legends/Hitos interprovinciales.svg",
+        "gobiernoslocales_2020": "src/config/styles/images/legends/Gobierno Local.svg"
+      }
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 30,
       "nombre": "Redes geodésicas",
       "short_abstract": "Redes RAMSAC, POSGAR, altimétrica y gravimétrica.",
@@ -147,10 +171,16 @@
       "seccion": "geodesia-demarcacion",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/geodesia-demarcacion"
+      "host": "https://wms.ign.gob.ar/geoserver/geodesia-demarcacion/wms",
+      "icons": {
+        "red_densificacion_posgar": "src/config/styles/images/legends/red-densificación-posgar.svg",
+        "red_pasma": "src/config/styles/images/legends/red-pasma.svg",
+        "red_posgar": "src/config/styles/images/legends/red-posgar.svg",
+        "red_provincial": "src/config/styles/images/legends/red-provincial.svg"
+      }
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 80,
       "nombre": "Defensa y seguridad",
       "short_abstract": "Policía, bomberos, instalaciones militares, etc.",
@@ -158,7 +188,7 @@
       "seccion": "defensa-seguridad",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/defensa-seguridad"
+      "host": "https://wms.ign.gob.ar/geoserver/defensa-seguridad/wms"
     },
     {
       "type": "wmts",
@@ -184,7 +214,7 @@
       "feature_info_format": "application/json"
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 35,
       "nombre": "Fotografías aéreas",
       "short_abstract": "Relevamientos fotogramétricos, ortomosaicos, etc.",
@@ -192,7 +222,7 @@
       "seccion": "fotogrametria",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/fotogrametria"
+      "host": "https://wms.ign.gob.ar/geoserver/fotogrametria/wms"
     },
     {
       "type": "wmts",
@@ -228,7 +258,18 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/atlas_tucuman_100k"
     },
     {
-      "type": "wmslayer",
+      "type": "wmts",
+      "peso": 100,
+      "nombre": "Cartografía",
+      "short_abstract": "Cartas topográficas, atlas topográficos, cartografía, etc.",
+      "class": "",
+      "seccion": "cartografia",
+      "servicio": "wmts",
+      "version": "1.0.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/atlas_jujuy_100k"
+    },
+    {
+      "type": "wms",
       "peso": 100,
       "nombre": "Cartografía",
       "short_abstract": "Cartas topográficas, atlas topográficos, cartografía, etc.",
@@ -236,10 +277,10 @@
       "seccion": "cartografia",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/cartografia"
+      "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms"
     },
     {
-      "type": "wmslayer",
+      "type": "wms",
       "peso": 37,
       "nombre": "Modelos digitales de elevaciones",
       "short_abstract": "Modelos digitales de elevaciones",
@@ -247,7 +288,7 @@
       "seccion": "mde",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones"
+      "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones/wms"
     },
     {
       "type": "wmts",
@@ -280,7 +321,7 @@
       "joins": [
         {
           "seccion": "fotogrametria",
-          "host": "https://wms.ign.gob.ar/geoserver/fotogrametria",
+          "host": "https://wms.ign.gob.ar/geoserver/fotogrametria/wms",
           "layer": "area_vuelos_dsr_sig"
         }
       ]
@@ -292,7 +333,7 @@
       "joins": [
         {
           "seccion": "fotogrametria",
-          "host": "https://wms.ign.gob.ar/geoserver/fotogrametria",
+          "host": "https://wms.ign.gob.ar/geoserver/fotogrametria/wms",
           "layer": "area_vuelos_vant_sig"
         }
       ]
@@ -304,7 +345,7 @@
       "joins": [
         {
           "seccion": "mde",
-          "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones",
+          "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones/wms",
           "layer": "mde_50cm"
         }
       ]
@@ -316,7 +357,7 @@
       "joins": [
         {
           "seccion": "mde",
-          "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones",
+          "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones/wms",
           "layer": "mde_5m"
         }
       ]
@@ -328,7 +369,7 @@
       "joins": [
         {
           "seccion": "cartografia",
-          "host": "https://wms.ign.gob.ar/geoserver/cartografia",
+          "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms",
           "layer": "hojas_500000"
         }
       ]
@@ -340,7 +381,7 @@
       "joins": [
         {
           "seccion": "cartografia",
-          "host": "https://wms.ign.gob.ar/geoserver/cartografia",
+          "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms",
           "layer": "hojas_250000"
         }
       ]
@@ -352,7 +393,7 @@
       "joins": [
         {
           "seccion": "cartografia",
-          "host": "https://wms.ign.gob.ar/geoserver/cartografia",
+          "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms",
           "layer": "hojas_100000"
         }
       ]
@@ -364,7 +405,7 @@
       "joins": [
         {
           "seccion": "cartografia",
-          "host": "https://wms.ign.gob.ar/geoserver/cartografia",
+          "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms",
           "layer": "hojas_50000"
         }
       ]
