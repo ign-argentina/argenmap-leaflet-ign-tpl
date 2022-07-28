@@ -21,6 +21,21 @@
           "zoom": { "min": 3, "max": 19 }
         },
         {
+          "titulo": "Argenmap Topográfico",
+          "nombre": "argenmap-topo",
+          "servicio": "tms",
+          "version": "1.0.0",
+          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
+          "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_topo@EPSG%3A3857@png/{z}/{x}/{-y}.png",
+          "legendImg": "src/styles/images/argenmap.png",
+          "peso": 22,
+          "selected": true,
+          "zoom": {
+            "min": 3,
+            "max": 20
+          }
+        },
+        {
           "titulo": "Argenmap gris",
           "nombre": "argenmap_gris",
           "servicio": "tms",
