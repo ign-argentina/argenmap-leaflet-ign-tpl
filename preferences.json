@@ -26,7 +26,7 @@
   },
   "showSearchBar": true,
   "referencias": {
-    "show": true,
+    "show": false,
     "icon": "src/config/styles/images/referencias.png",
     "image": "src/config/styles/images/legends/referencias.png",
     "width": "",
@@ -78,9 +78,9 @@
   "favicon": "src/config/styles/images/favicon.ico",
   "geoprocessing": {
     "isActive": true,
-    "buttonTitle": "Curvas de nivel",
+    "buttonTitle": "Geoprocesos",
     "buttonIcon": "fa fa-cog",
-    "dialogTitle": "Curvas de nivel",
+    "dialogTitle": "Geoprocesos",
     "strings": {
       "bounds": "Areas a procesar"
     },
@@ -90,6 +90,7 @@
         "geoprocess": "contour",
         "baseUrl": "https://imagenes.ign.gob.ar/geoserver/geoprocesos/ows?service=WPS&version=1.0.0",
         "layer": "alos_unificado",
+        "namePrefix": "curvas_de_nivel_",
         "styles": {
           "line_color": "#e0b44c",
           "line_weight": 0.8,
@@ -102,8 +103,19 @@
       {
         "name": "Cota",
         "geoprocess": "waterRise",
-        "baseUrl": "https://imagenes.ign.gob.ar/geoserver/geoprocesos/ows?service=WPS&version=1.0.0",
-        "layer": "alos_unificado"
+        "namePrefix": "cota_",
+        "layer": "geoprocesos:alos_unificado",
+        "baseUrl": "https://imagenes.ign.gob.ar/geoserver/ows?service=WPS&version=1.0.0"
+      },
+      {
+        "name": "Área de influencia",
+        "geoprocess": "buffer",
+        "namePrefix": "area_de_influencia_"
+      },
+      {
+        "name": "Perfil de Elevación",
+        "geoprocess": "elevationProfile",
+        "namePrefix": "profile_"
       }
     ]
   },
