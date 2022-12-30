@@ -127,7 +127,7 @@
       "icons": {
         "hitos_internacionales": "src/config/styles/images/legends/hitos_internacionales.svg",
         "hitos_interprovinciales": "src/config/styles/images/legends/hitos_internacionales.svg",
-        "gobiernoslocales_2022": "src/config/styles/images/legends/gobierno_local.svg"
+        "gobiernoslocales_2020": "src/config/styles/images/legends/gobierno_local.svg"
       }
     },
     {
@@ -209,7 +209,7 @@
       "type": "wms",
       "peso": 70,
       "nombre": "Hidrografía y oceanografía",
-      "short_abstract": "Ríos, lagos, humedales, embalses, islas, etc.",
+      "short_abstract": "Ríos, lagos, embalses, islas, etc.",
       "class": "",
       "seccion": "hidrografia-oceanografia",
       "servicio": "wms",
