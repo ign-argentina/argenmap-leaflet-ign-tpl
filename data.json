@@ -45,7 +45,7 @@
           "servicio": "tms",
           "version": "1.0.0",
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/Introduccion' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
-          "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_oscuro@EPSG%3A3857@png/{z}/{x}/{-y}.png",
+          "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/argenmap_oscuro@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "https://mapa.ign.gob.ar/src/config/styles/images/argenmap-oscuro.png",
           "legend":	"src/config/styles/images/legends/argenmap-oscuro.jpg",
           "peso": 25,
