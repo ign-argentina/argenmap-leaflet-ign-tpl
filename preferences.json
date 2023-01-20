@@ -135,9 +135,9 @@
     "iconBar": "#4f4f4f",
     "menuBackground": "#37bbed",
     "textLegendMenu": "white",
-    "textLegendMenuStyle": "text-shadow: 1px 1px 1px #103847",
+    "textLegendMenuStyle": "",
     "textMenu": "white",
-    "textMenuStyle": "text-shadow: 1px 1px 1px #103847"
+    "textMenuStyle": ""
   },
   "title": "IGN - Argenmap",
   "website": "https://www.ign.gob.ar/"
