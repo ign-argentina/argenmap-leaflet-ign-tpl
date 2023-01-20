@@ -121,7 +121,8 @@
   "strings": {
     "basemap_legend_button_text": "Ver leyenda del mapa",
     "basemap_max_zoom": " y máximo de ",
-    "basemap_min_zoom": "Zoom mínimo de "
+    "basemap_min_zoom": "Zoom mínimo de ",
+    "delete_geometry": "Eliminar geometría"
   },
   "table": {
     "isActive": false,
