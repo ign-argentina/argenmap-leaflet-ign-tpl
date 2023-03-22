@@ -74,7 +74,7 @@
     "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}.png"
   },
   "logo": {
-    "height": "",
+    "height": "47px",
     "miniHeight": "",
     "ministyle": "filter: drop-shadow(1px 1px 1px #103847);",
     "miniWidth": "",
@@ -82,15 +82,15 @@
     "srcLogoMini": "src/config/default/styles/images/logo_RESPONSIVE.png",
     "style": "filter: drop-shadow(1px 1px 1px #103847)",
     "title": "Instituto Geográfico Nacional",
-    "width": ""
+    "width": "365px"
   },
   "mapConfig": {
     "center": {
-      "latitude": -40,
-      "longitude": -59
+      "latitude": -51.82,
+      "longitude": -59.56
     },
     "zoom": {
-      "initial": 4,
+      "initial": 8,
       "max": 21,
       "min": 3
     }
