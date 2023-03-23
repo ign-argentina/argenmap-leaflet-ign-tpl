@@ -131,10 +131,10 @@
   },
   "theme": {
     "activeLayer": "#33b560",
-    "bodyBackground": "#37bbed",
-    "headerBackground": "#37bbed",
+    "bodyBackground": "#0cb2e1",
+    "headerBackground": "#0cb2e1",
     "iconBar": "#4f4f4f",
-    "menuBackground": "#37bbed",
+    "menuBackground": "#0cb2e1",
     "textLegendMenu": "white",
     "textLegendMenuStyle": "",
     "textMenu": "white",
