@@ -143,7 +143,8 @@
   "website": "https://www.ign.gob.ar/",
   "mainPopup": {
     "isActive": true,
-    "image": "src/styles/images/logo.png",
+    "welcomeSign": "¡Bienvenidos a Argenmap!",
+    "image": "src/styles/images/argenmap-banner-white.png",
     "text": "Argenmap es un visor de mapas desarrollado por el Instituto Geográfico Nacional de licencia libre que permite mostrar mapas base, capas superpuestas desde servicios WMS y WMTS, consultar sus datos y agregar extensiones."
   }
 }
