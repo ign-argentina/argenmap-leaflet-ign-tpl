@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "tab": "",
       "type": "basemap",
       "peso": 1,
       "nombre": "Mapas base",
@@ -16,7 +17,7 @@
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/Introduccion' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap.png",
-          "legend":	"src/config/styles/images/legends/argenmap.jpg",
+          "legend": "src/config/styles/images/legends/argenmap.jpg",
           "peso": 10,
           "selected": true,
           "zoom": {
@@ -32,7 +33,7 @@
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/Introduccion' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap-gris.png",
-          "legend":	"src/config/styles/images/legends/argenmap-gris.jpg",
+          "legend": "src/config/styles/images/legends/argenmap-gris.jpg",
           "peso": 20,
           "zoom": {
             "min": 3,
@@ -47,7 +48,7 @@
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/Introduccion' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/argenmap_oscuro@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "https://mapa.ign.gob.ar/src/config/styles/images/argenmap-oscuro.png",
-          "legend":	"src/config/styles/images/legends/argenmap-oscuro.jpg",
+          "legend": "src/config/styles/images/legends/argenmap-oscuro.jpg",
           "peso": 25,
           "zoom": {
             "min": 3,
@@ -62,7 +63,7 @@
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_topo@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap-topo.png",
-          "legend":	"src/config/styles/images/legends/argenmap-topografico.jpg",
+          "legend": "src/config/styles/images/legends/argenmap-topografico.jpg",
           "peso": 27,
           "selected": true,
           "zoom": {
@@ -115,6 +116,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 20,
       "nombre": "Límites y unidades territoriales",
@@ -131,6 +137,11 @@
       }
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 25,
       "nombre": "Asentamientos humanos",
@@ -142,6 +153,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/asentamientos_humanos/wms"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 30,
       "nombre": "Redes geodésicas",
@@ -159,6 +175,11 @@
       }
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 40,
       "nombre": "Transporte",
@@ -168,8 +189,13 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/transporte/wms"
-      },
+    },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 50,
       "nombre": "Infraestructura social",
@@ -184,6 +210,11 @@
       }
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 55,
       "nombre": "Industria y servicios",
@@ -195,6 +226,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/industria-servicios/wms"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 60,
       "nombre": "Defensa y seguridad",
@@ -206,6 +242,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/defensa-seguridad/wms"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 70,
       "nombre": "Hidrografía y oceanografía",
@@ -220,6 +261,11 @@
       }
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 80,
       "nombre": "Relieve y suelo",
@@ -231,6 +277,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/relieve-suelo/wms"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 100,
       "nombre": "Cartografía",
@@ -242,6 +293,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/cartas_mosaicos"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 100,
       "nombre": "Cartografía",
@@ -253,6 +309,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 100,
       "nombre": "Cartografía",
@@ -264,6 +325,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/atlas_argentina_500k"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 100,
       "nombre": "Cartografía",
@@ -275,6 +341,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/atlas_tucuman_100k"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 100,
       "nombre": "Cartografía",
@@ -286,6 +357,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/atlas_jujuy_100k"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 110,
       "nombre": "Fotografías aéreas",
@@ -297,6 +373,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/mosaicos_vuelos_vant"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 110,
       "nombre": "Fotografías aéreas",
@@ -309,6 +390,11 @@
       "feature_info_format": "application/json"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 110,
       "nombre": "Fotografías aéreas",
@@ -320,6 +406,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/fotogrametria/wms"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 120,
       "nombre": "Modelos digitales de elevaciones",
@@ -331,6 +422,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/mosaico_mde_vant_50cm"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wmts",
       "peso": 120,
       "nombre": "Modelos digitales de elevaciones",
@@ -342,6 +438,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/mosaico_mde_vuelos_5m"
     },
     {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "IG"
+      },
       "type": "wms",
       "peso": 120,
       "nombre": "Modelos digitales de elevaciones",
@@ -351,6 +452,22 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones/wms"
+    },
+    {
+      "tab": {
+        "id": "Malvinas",
+        "searcheable": false,
+        "content": "Malvinas"
+      },
+      "type": "wmslayer",
+      "peso": 75,
+      "nombre": "Memoriales Malvinas",
+      "short_abstract": "Museo Malvinas e Islas del Atlántico Sur",
+      "class": "",
+      "seccion": "malvinas",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/malvinas/wms"
     }
   ],
   "layers_joins": [
