@@ -145,7 +145,7 @@
   "mainPopup": {
     "isActive": true,
     "welcomeSign": "¡Bienvenidos a Argenmap!",
-    "image": "styles/images/DISEÑO-POP-UP-MALVINAS-png.png",
+    "image": "src/config/styles/images/DISEÑO-POP-UP-MALVINAS-png.png",
     "text": ""
   }
 }
