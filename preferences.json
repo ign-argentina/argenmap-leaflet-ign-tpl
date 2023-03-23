@@ -144,7 +144,7 @@
   "website": "https://www.ign.gob.ar/",
   "mainPopup": {
     "isActive": true,
-    "welcomeSign": "¡Bienvenidos a Argenmap!",
+    "welcomeSign": "",
     "image": "src/config/styles/images/DISEÑO-POP-UP-MALVINAS-png.png",
     "text": ""
   }
