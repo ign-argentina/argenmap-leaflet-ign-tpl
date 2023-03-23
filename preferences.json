@@ -82,7 +82,8 @@
     "srcLogoMini": "src/config/default/styles/images/logo_RESPONSIVE.png",
     "style": "filter: drop-shadow(1px 1px 1px #103847)",
     "title": "Instituto Geográfico Nacional",
-    "width": "365px"
+    "width": "365px",
+    "link": "https://www.ign.gob.ar/"
   },
   "mapConfig": {
     "center": {
