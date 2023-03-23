@@ -145,7 +145,7 @@
   "mainPopup": {
     "isActive": true,
     "welcomeSign": "¡Bienvenidos a Argenmap!",
-    "image": "src/styles/images/argenmap-banner-white.png",
-    "text": "Argenmap es un visor de mapas desarrollado por el Instituto Geográfico Nacional de licencia libre que permite mostrar mapas base, capas superpuestas desde servicios WMS y WMTS, consultar sus datos y agregar extensiones."
+    "image": "styles/images/DISEÑO-POP-UP-MALVINAS-png.png",
+    "text": ""
   }
 }
