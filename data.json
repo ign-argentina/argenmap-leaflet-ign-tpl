@@ -119,7 +119,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 20,
@@ -140,7 +140,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 25,
@@ -156,7 +156,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 30,
@@ -178,7 +178,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 40,
@@ -194,7 +194,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 50,
@@ -213,7 +213,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 55,
@@ -229,7 +229,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 60,
@@ -245,7 +245,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 70,
@@ -264,7 +264,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 80,
@@ -280,7 +280,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 100,
@@ -296,7 +296,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 100,
@@ -312,7 +312,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 100,
@@ -328,7 +328,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 100,
@@ -344,7 +344,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 100,
@@ -360,7 +360,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 110,
@@ -376,7 +376,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 110,
@@ -393,7 +393,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 110,
@@ -409,7 +409,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 120,
@@ -425,7 +425,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wmts",
       "peso": 120,
@@ -441,7 +441,7 @@
       "tab": {
         "id": "IG",
         "searcheable": true,
-        "content": "IG"
+        "content": "Info. Geoespacial"
       },
       "type": "wms",
       "peso": 120,
