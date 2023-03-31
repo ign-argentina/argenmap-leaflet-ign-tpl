@@ -462,7 +462,7 @@
       "peso": 10,
       "type": "wms",
       "nombre": "Información Geográfica",
-      "short_abstract": "Aquí puede ir una breve explicación",
+      "short_abstract": "Información actualizada a escala 1:250.000",
       "class": "",
       "seccion": "malvinas-ig",
       "servicio": "wms",
