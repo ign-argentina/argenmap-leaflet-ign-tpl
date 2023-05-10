@@ -87,13 +87,13 @@
   },
   "mapConfig": {
     "center": {
-      "latitude": -51.82,
-      "longitude": -59.56
+      "latitude": -40,
+      "longitude": -59
     },
     "zoom": {
-      "initial": 8,
-      "max": 21,
-      "min": 3
+      "initial": 4,
+      "min": 3,
+      "max": 21
     }
   },
   "metaTags": {
@@ -143,7 +143,7 @@
   "title": "IGN - Argenmap",
   "website": "https://www.ign.gob.ar/",
   "mainPopup": {
-    "isActive": true,
+    "isActive": false,
     "welcomeSign": "",
     "image": "https://static.ign.gob.ar/img/malvinas/modal-malvinas.png",
     "text": ""
