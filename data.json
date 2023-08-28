@@ -282,6 +282,25 @@
         "searcheable": true,
         "content": "Info. Geoespacial"
       },
+      "type": "wms",
+      "peso": 80,
+      "nombre": "Relieve y suelo",
+      "short_abstract": "Cerros, volcanes, glaciares, etc.",
+      "class": "",
+      "seccion": "relieve-suelo",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/coberturas_del_suelo/cobertura_suelo",
+      "icons": {
+          "cobertura_suelo": "src/config/styles/images/legends/cobertura.svg"
+      }
+    },
+    {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "Info. Geoespacial"
+      },
       "type": "wmts",
       "peso": 100,
       "nombre": "Cartografía",
