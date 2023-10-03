@@ -314,6 +314,22 @@
         "searcheable": true,
         "content": "Info. Geoespacial"
       },
+      "type": "wmts",
+      "peso": 100,
+      "nombre": "Cartografía",
+      "short_abstract": "Cartas topográficas, atlas topográficos, cartografía, etc.",
+      "class": "",
+      "seccion": "cartografia",
+      "servicio": "wmts",
+      "version": "1.0.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/malvinas_250k"
+    },
+    {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "Info. Geoespacial"
+      },
       "type": "wms",
       "peso": 100,
       "nombre": "Cartografía",
