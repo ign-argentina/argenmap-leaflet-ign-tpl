@@ -484,6 +484,43 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/modelos-digitales-elevaciones/wms"
+    },{
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "Info. Geoespacial"
+      },
+      "type": "wms",
+      "peso": 140,
+      "nombre": "Imágenes satelitales CONAE",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "conae",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "allowed_layers": [
+        "Centro",
+        "Cuyo",
+        "NEA",
+        "NOA",
+        "PatagoniaNorte",
+        "PatagoniaSur",
+        "Centro_huellas_localidades",
+        "Cuyo_huellas_localidades",
+        "NEA_huellas_localidades",
+        "NOA_huellas_localidades",
+        "PatagoniaNorte_huellas_localidades",
+        "PatagoniaSur_huellas_localidades"
+      ],
+      "icons": {
+        "Centro": "src/config/default/styles/images/legends/satelite.svg",
+        "Cuyo": "src/config/default/styles/images/legends/satelite.svg",
+        "NEA": "src/config/default/styles/images/legends/satelite.svg",
+        "NOA": "src/config/default/styles/images/legends/satelite.svg",
+        "PatagoniaNorte": "src/config/default/styles/images/legends/satelite.svg",
+        "PatagoniaSur": "src/config/default/styles/images/legends/satelite.svg"
+      }
     },
     {
       "tab": {
@@ -620,6 +657,78 @@
           "seccion": "cartografia",
           "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms",
           "layer": "hojas_50000"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "Centro",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "Centro_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "Cuyo",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "Cuyo_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "NEA",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "NEA_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "NOA",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "NOA_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "PatagoniaNorte",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "PatagoniaNorte_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "PatagoniaSur",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "PatagoniaSur_huellas_localidades"
         }
       ]
     }
