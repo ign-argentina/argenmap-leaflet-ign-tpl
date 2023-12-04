@@ -282,6 +282,22 @@
         "searcheable": true,
         "content": "Info. Geoespacial"
       },
+      "type": "wms",
+      "peso": 80,
+      "nombre": "Relieve y suelo",
+      "short_abstract": "Cerros, volcanes, glaciares, etc.",
+      "class": "",
+      "seccion": "relieve-suelo",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/coberturas_del_suelo/wms"
+    },
+    {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "Info. Geoespacial"
+      },
       "type": "wmts",
       "peso": 100,
       "nombre": "Cartografía",
@@ -291,6 +307,22 @@
       "servicio": "wmts",
       "version": "1.0.0",
       "host": "https://imagenes.ign.gob.ar/geoserver/cartas_mosaicos"
+    },
+    {
+      "tab": {
+        "id": "IG",
+        "searcheable": true,
+        "content": "Info. Geoespacial"
+      },
+      "type": "wmts",
+      "peso": 100,
+      "nombre": "Cartografía",
+      "short_abstract": "Cartas topográficas, atlas topográficos, cartografía, etc.",
+      "class": "",
+      "seccion": "cartografia",
+      "servicio": "wmts",
+      "version": "1.0.0",
+      "host": "https://imagenes.ign.gob.ar/geoserver/malvinas_250k"
     },
     {
       "tab": {
