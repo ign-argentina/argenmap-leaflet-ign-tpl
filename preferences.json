@@ -75,11 +75,11 @@
   "logo": {
     "height": "47px",
     "miniHeight": "",
-    "ministyle": "filter: drop-shadow(1px 1px 1px #103847);",
+    "ministyle": "filter: drop-shadow(1px 1px 1px #888);",
     "miniWidth": "",
-    "src": "src/config/styles/images/logo2.png",
+    "src": "src/config/styles/images/Logo-MinDef-IGN-Visores.png",
     "srcLogoMini": "src/config/styles/images/logo_RESPONSIVE.png",
-    "style": "filter: drop-shadow(1px 1px 1px #103847)",
+    "style": "filter: drop-shadow(1px 1px 1px #888)",
     "title": "Instituto Geográfico Nacional",
     "width": "365px",
     "link": "https://www.ign.gob.ar/"
