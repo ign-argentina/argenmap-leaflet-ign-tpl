@@ -73,16 +73,16 @@
     "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}.png"
   },
   "logo": {
-    "height": "47px",
-    "miniHeight": "",
-    "ministyle": "filter: drop-shadow(1px 1px 1px #888);",
-    "miniWidth": "",
-    "src": "src/config/styles/images/Logo-MinDef-IGN-Visores.svg",
-    "srcLogoMini": "src/config/styles/images/logo_RESPONSIVE.png",
-    "style": "filter: drop-shadow(1px 1px 1px #888)",
     "title": "Instituto Geográfico Nacional",
-    "width": "365px",
-    "link": "https://www.ign.gob.ar/"
+    "link": "https://www.ign.gob.ar/",
+    "src": "https://static.ign.gob.ar/img/logo/Logo-MinDef-IGN-Visores.svg",
+    "style": "",
+    "height": "49px",
+    "width": "200px",
+    "srcLogoMini": "https://static.ign.gob.ar/img/logo/LogoIGN_Blanco_SinTexto.svg",
+    "ministyle": "",
+    "miniHeight": "",
+    "miniWidth": ""
   },
   "mapConfig": {
     "center": {
