@@ -140,20 +140,6 @@
             "min": 3,
             "max": 18
           }
-        },
-        {
-          "titulo": "Mapa topográfico Stamen Terrain",
-          "nombre": "stamen-terrain",
-          "servicio": "tms",
-          "version": "1.0.0",
-          "attribution": "<a href='https://www.stadiamaps.com/' target='_blank'>Stadia Maps</a> &copy; <a href='https://www.stamen.com/' target='_blank'>Stamen Design</a> &copy; <a href='https://openmaptiles.org/' target='_blank'>OpenMapTiles</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
-          "host": "https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png",
-          "legendImg": "src/styles/images/stamen_terrain.png",
-          "peso": 70,
-          "zoom": {
-            "min": 3,
-            "max": 18
-          }
         }
       ]
     },
