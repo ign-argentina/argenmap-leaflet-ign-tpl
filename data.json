@@ -107,7 +107,11 @@
           "attribution": "Tiles &copy; Esri &mdash; Fuente: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, y Esri",
           "host": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}",
           "legendImg": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/0/0/0",
-          "peso": 30
+          "peso": 30,
+          "zoom": {
+            "min": 3,
+            "max": 10
+          }
         },
         {
           "titulo": "Imágenes satelitales Here",
@@ -120,7 +124,7 @@
           "peso": 50,
           "zoom": {
             "min": 3,
-            "max": 21
+            "max": 19
           }
         },
         {
@@ -131,7 +135,11 @@
           "attribution": "Imágenes satelitales © Bing",
           "key": "AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L",
           "legendImg": "src/styles/images/bing.png",
-          "peso": 60
+          "peso": 60,
+          "zoom": {
+            "min": 3,
+            "max": 18
+          }
         },
         {
           "titulo": "Mapa topográfico Stamen Terrain",
@@ -143,7 +151,7 @@
           "legendImg": "src/styles/images/stamen_terrain.png",
           "peso": 70,
           "zoom": {
-            "min": 0,
+            "min": 3,
             "max": 18
           }
         }
