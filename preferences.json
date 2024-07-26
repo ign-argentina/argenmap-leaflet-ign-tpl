@@ -100,6 +100,10 @@
     "image": "/src/styles/images/argenmap.png",
     "title": "IGN - Argenmap"
   },
+  "onInit": {
+    "showToolbar": true,
+    "showLayerMenu:": true
+  },
   "referencias": {
     "height": "",
     "icon": "src/config/styles/images/referencias.png",
@@ -131,9 +135,9 @@
   "theme": {
     "activeLayer": "#33b560",
     "bodyBackground": "#0cb2e1",
-    "headerBackground": "#0cb2e1",
+    "headerBackground": "#157DB9",
     "iconBar": "#4f4f4f",
-    "menuBackground": "#0cb2e1",
+    "menuBackground": "#157DB9",
     "textLegendMenu": "white",
     "textLegendMenuStyle": "",
     "textMenu": "white",

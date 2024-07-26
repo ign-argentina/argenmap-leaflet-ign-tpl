@@ -100,6 +100,16 @@
           }
         },
         {
+          "titulo": "Mapa Esri Fondo Oceánico",
+          "nombre": "esri_imagery-o",
+          "servicio": "tms",
+          "version": "1.0.0",
+          "attribution": "Tiles &copy; Esri &mdash; Fuente: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, y Esri",
+          "host": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}",
+          "legendImg": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/0/0/0",
+          "peso": 30
+        },
+        {
           "titulo": "Imágenes satelitales Here",
           "nombre": "here_imagery",
           "servicio": "tms",
@@ -111,6 +121,30 @@
           "zoom": {
             "min": 3,
             "max": 21
+          }
+        },
+        {
+          "titulo": "Imágenes satelitales Bing",
+          "nombre": "bing_imagery",
+          "servicio": "bing",
+          "version": "1.0.0",
+          "attribution": "Imágenes satelitales © Bing",
+          "key": "AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L",
+          "legendImg": "src/styles/images/bing.png",
+          "peso": 60
+        },
+        {
+          "titulo": "Mapa topográfico Stamen Terrain",
+          "nombre": "stamen-terrain",
+          "servicio": "tms",
+          "version": "1.0.0",
+          "attribution": "<a href='https://www.stadiamaps.com/' target='_blank'>Stadia Maps</a> &copy; <a href='https://www.stamen.com/' target='_blank'>Stamen Design</a> &copy; <a href='https://openmaptiles.org/' target='_blank'>OpenMapTiles</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+          "host": "https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png",
+          "legendImg": "src/styles/images/stamen_terrain.png",
+          "peso": 70,
+          "zoom": {
+            "min": 0,
+            "max": 18
           }
         }
       ]
