@@ -138,6 +138,7 @@
     "headerBackground": "#157DB9",
     "iconBar": "#4f4f4f",
     "menuBackground": "#157DB9",
+    "btnColor": "white",
     "textLegendMenu": "white",
     "textLegendMenuStyle": "",
     "textMenu": "white",
