@@ -602,6 +602,18 @@
     {
       "seccion": "cartografia",
       "host": "https://imagenes.ign.gob.ar/geoserver/cartas_mosaicos",
+      "layer": "cartas_500k_junio_2025",
+      "joins": [
+        {
+          "seccion": "cartografia",
+          "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms",
+          "layer": "hojas_500000_junio_2025"
+        }
+      ]
+    },
+    {
+      "seccion": "cartografia",
+      "host": "https://imagenes.ign.gob.ar/geoserver/cartas_mosaicos",
       "layer": "cartas_500k",
       "joins": [
         {
