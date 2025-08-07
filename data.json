@@ -510,35 +510,7 @@
       }
     },
     {
-      "tab": {
-        "id": "malvinas",
-        "searcheable": true,
-        "content": "Malvinas"
-      },
-      "peso": 10,
-      "type": "wms",
-      "nombre": "Información Geográfica",
-      "short_abstract": "Información actualizada a escala 1:250.000",
-      "class": "",
-      "seccion": "malvinas-ig",
-      "servicio": "wms",
-      "version": "1.0.0",
-      "host": "https://wms.ign.gob.ar/geoserver/malvinas/wms",
-      "icons": {
-        "lineas_de_zona_costera_BA040": "src/config/styles/images/legends/malvinas_accidente_costero.svg",
-        "curvas_de_nivel": "src/config/styles/images/legends/malvinas_curvas_de_nivel.svg",
-        "puntos_de_asentamientos_y_edificios_AL017": "src/config/styles/images/legends/malvinas_edificaciones.svg",
-        "lineas_de_geomorfologia_050204": "src/config/styles/images/legends/malvinas_geomorfologia.svg",
-        "puntos_de_asentamientos_y_edificios_AL": "src/config/styles/images/legends/malvinas_lugar_geografico.svg",
-        "puntos_de_asentamientos_y_edificios_AL201": "src/config/styles/images/legends/malvinas_sitio_interes.svg"
-      }
-    },
-    {
-      "tab": {
-        "id": "malvinas",
-        "searcheable": false,
-        "content": "Malvinas"
-      },
+    
       "type": "wmslayer",
       "peso": 20,
       "nombre": "Museo Malvinas e Islas del Atlántico Sur",
