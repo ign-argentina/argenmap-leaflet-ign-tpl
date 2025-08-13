@@ -112,20 +112,6 @@
             "min": 3,
             "max": 10
           }
-        },
-        {
-          "titulo": "Imágenes satelitales Bing",
-          "nombre": "bing_imagery",
-          "servicio": "bing",
-          "version": "1.0.0",
-          "attribution": "Imágenes satelitales © Bing",
-          "key": "AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L",
-          "legendImg": "src/styles/images/bing.png",
-          "peso": 60,
-          "zoom": {
-            "min": 3,
-            "max": 18
-          }
         }
       ]
     },
