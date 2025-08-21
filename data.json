@@ -93,10 +93,24 @@
           "attribution": "Mapa topográfico © Esri",
           "host": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}",
           "legendImg": "src/styles/images/esrit.png",
-          "peso": 40,
+          "peso": 35,
           "zoom": {
             "min": 3,
             "max": 8
+          }
+        },
+        {
+          "titulo": "Mapa Esri Fondo Oceánico",
+          "nombre": "esri_imagery-o",
+          "servicio": "tms",
+          "version": "1.0.0",
+          "attribution": "Tiles &copy; Esri &mdash; Fuente: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, y Esri",
+          "host": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}",
+          "legendImg": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/0/0/0",
+          "peso": 37,
+          "zoom": {
+            "min": 3,
+            "max": 10
           }
         }
       ]
