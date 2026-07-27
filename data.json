@@ -592,19 +592,19 @@
     {
       "seccion": "cartografia",
       "host": "https://imagenes.ign.gob.ar/geoserver/cartas_mosaicos",
-      "layer": "cartas_500k_junio_2025",
+      "layer": "cartas_ign_500k_antiguas",
       "joins": [
         {
           "seccion": "cartografia",
           "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms",
-          "layer": "hojas_500000_junio_2025"
+          "layer": "hojas_500000_historicas"
         }
       ]
     },
     {
       "seccion": "cartografia",
       "host": "https://imagenes.ign.gob.ar/geoserver/cartas_mosaicos",
-      "layer": "cartas_500k",
+      "layer": "febrero_2026",
       "joins": [
         {
           "seccion": "cartografia",
